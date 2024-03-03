@@ -22,7 +22,7 @@ public class InputJavadocMethod_03 {
         try {
             doStuff2();
         } catch (final TestException2 e) { }
-        throw new InputJavadocMethod_03().new TestException1(""); 
+        throw new InputJavadocMethod_03().new TestException1("");
     }
     /** Do 2.
      * @throws TestException2 when problem occurs.
