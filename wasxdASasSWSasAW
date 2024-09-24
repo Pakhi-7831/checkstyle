@@ -1,0 +1,237 @@
+[1mdiff --git a/config/checkstyle-input-suppressions.xml b/config/checkstyle-input-suppressions.xml[m
+[1mindex d004e15e7..3bda9f8dd 100644[m
+[1m--- a/config/checkstyle-input-suppressions.xml[m
+[1m+++ b/config/checkstyle-input-suppressions.xml[m
+[36m@@ -735,56 +735,6 @@[m
+             files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethodTypeParamsTags.java"/>[m
+   <suppress id="UnnecessaryOkComment"[m
+             files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethodTypeParamsTags.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_01.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_02.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_03.java"/>[m
+   <suppress id="UnnecessaryOkComment"[m
+             files="checks[\\/]javadoc[\\/]javadocmethod[\\/]InputJavadocMethod_1379666.java"/>[m
+   <suppress id="UnnecessaryOkComment"[m
+[36m@@ -2359,8 +2309,6 @@[m
+             files="checks[\\/]javadoc[\\/]javadoctype[\\/]InputJavadocType3.java"/>[m
+   <suppress id="UnnecessaryOkComment"[m
+             files="checks[\\/]whitespace[\\/]emptylineseparator[\\/]InputEmptyLineSeparator.java"/>[m
+[31m-  <suppress id="UnnecessaryOkComment"[m
+[31m-            files="checks[\\/]whitespace[\\/]emptylineseparator[\\/]InputEmptyLineSeparator2.java"/>[m
+   <suppress id="UnnecessaryOkComment"[m
+             files="utils[\\/]checkutil[\\/]InputCheckUtil7.java"/>[m
+ </suppressions>[m
+[1mdiff --git a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_01.java b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_01.java[m
+[1mindex 3f0a2f97f..cf61f362c 100644[m
+[1m--- a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_01.java[m
+[1m+++ b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_01.java[m
+[36m@@ -17,35 +17,35 @@[m [mpublic class InputJavadocMethod_01 {[m
+     /** Do 1.[m
+      * @throws TestException1 when problem occurs.[m
+      */[m
+[31m-    public void doStuff1() throws TestException1 { // ok[m
+[32m+[m[32m    public void doStuff1() throws TestException1 {[m[41m [m
+         try {[m
+[31m-            doStuff2(); // ok[m
+[32m+[m[32m            doStuff2();[m[41m [m
+         } catch (final TestException2 e) { }[m
+[31m-        throw new InputJavadocMethod_01().new TestException1(""); // ok[m
+[32m+[m[32m        throw new InputJavadocMethod_01().new TestException1("");[m[41m [m
+     }[m
+     /** Do 2.[m
+      * @throws TestException2 when problem occurs.[m
+      */[m
+[31m-    private static void doStuff2() throws TestException2 { // ok[m
+[31m-        throw new TestException2(""); // ok[m
+[32m+[m[32m    private static void doStuff2() throws TestException2 {[m[41m [m
+[32m+[m[32m        throw new TestException2("");[m[41m [m
+     }[m
+     /** Exception 1.[m
+      */[m
+[31m-    class TestException1 extends Exception { // ok[m
+[32m+[m[32m    class TestException1 extends Exception {[m[41m [m
+         /** Exception 1.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException1(String messg) { // ok[m
+[32m+[m[32m        TestException1(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+     /** Exception 2.[m
+      */[m
+[31m-    public static class TestException2 extends Exception { // ok[m
+[32m+[m[32m    public static class TestException2 extends Exception {[m[41m [m
+         /** Exception 2.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException2(String messg) { // ok[m
+[32m+[m[32m        TestException2(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+[1mdiff --git a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_02.java b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_02.java[m
+[1mindex 46ec19a0d..2939f187a 100644[m
+[1m--- a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_02.java[m
+[1m+++ b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_02.java[m
+[36m@@ -16,37 +16,37 @@[m [mpublic class InputJavadocMethod_02 {[m
+ [m
+     /** Exception 1.[m
+      */[m
+[31m-    class TestException1 extends Exception { // ok[m
+[32m+[m[32m    class TestException1 extends Exception {[m[41m [m
+         /** Exception 1.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException1(String messg) { // ok[m
+[32m+[m[32m        TestException1(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+     /** Exception 2.[m
+      */[m
+[31m-    public static class TestException2 extends Exception { // ok[m
+[32m+[m[32m    public static class TestException2 extends Exception {[m[41m [m
+         /** Exception 2.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException2(String messg) { // ok[m
+[32m+[m[32m        TestException2(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+     /** Do 1.[m
+      * @throws TestException1 when problem occurs.[m
+      */[m
+[31m-    public void doStuff1() throws TestException1 { // ok[m
+[32m+[m[32m    public void doStuff1() throws TestException1 {[m[41m [m
+         try {[m
+             doStuff2();[m
+[31m-        } catch (final TestException2 e) { } // ok[m
+[32m+[m[32m        } catch (final TestException2 e) { }[m[41m [m
+         throw new InputJavadocMethod_02().new TestException1("");[m
+     }[m
+     /** Do 2.[m
+      * @throws TestException2 when problem occurs.[m
+      */[m
+[31m-    private static void doStuff2() throws TestException2 { // ok[m
+[31m-        throw new TestException2(""); // ok[m
+[32m+[m[32m    private static void doStuff2() throws TestException2 {[m[41m [m
+[32m+[m[32m        throw new TestException2("");[m[41m [m
+     }[m
+ }[m
+[1mdiff --git a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_03.java b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_03.java[m
+[1mindex c965ab94c..cf3434d21 100644[m
+[1m--- a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_03.java[m
+[1m+++ b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/javadoc/javadocmethod/InputJavadocMethod_03.java[m
+[36m@@ -18,35 +18,35 @@[m [mpublic class InputJavadocMethod_03 {[m
+      * @throws TestException1 when problem occurs.[m
+      * @throws TestException2 when problem occurs.[m
+      */[m
+[31m-    public void doStuff1() throws TestException1, TestException2 { // ok[m
+[32m+[m[32m    public void doStuff1() throws TestException1, TestException2 {[m[41m [m
+         try {[m
+             doStuff2();[m
+         } catch (final TestException2 e) { }[m
+[31m-        throw new InputJavadocMethod_03().new TestException1(""); // ok[m
+[32m+[m[32m        throw new InputJavadocMethod_03().new TestException1("");[m[41m [m
+     }[m
+     /** Do 2.[m
+      * @throws TestException2 when problem occurs.[m
+      */[m
+[31m-    private static void doStuff2() throws TestException2 { // ok[m
+[32m+[m[32m    private static void doStuff2() throws TestException2 {[m[41m [m
+         throw new TestException2(""); // ok[m
+     }[m
+     /** Exception 1.[m
+      */[m
+[31m-    class TestException1 extends Exception { // ok[m
+[32m+[m[32m    class TestException1 extends Exception {[m[41m [m
+         /** Exception 1.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException1(String messg) { // ok[m
+[32m+[m[32m        TestException1(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+     /** Exception 2.[m
+      */[m
+[31m-    public static class TestException2 extends Exception { // ok[m
+[32m+[m[32m    public static class TestException2 extends Exception {[m[41m [m
+         /** Exception 2.[m
+          * @param messg message[m
+          */[m
+[31m-        TestException2(String messg) { // ok[m
+[32m+[m[32m        TestException2(String messg) {[m[41m [m
+             super(messg);[m
+         }[m
+     }[m
+[1mdiff --git a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/emptylineseparator/InputEmptyLineSeparator2.java b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/emptylineseparator/InputEmptyLineSeparator2.java[m
+[1mindex 1d7f4e261..b9fb93599 100644[m
+[1m--- a/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/emptylineseparator/InputEmptyLineSeparator2.java[m
+[1m+++ b/src/test/resources/com/puppycrawl/tools/checkstyle/checks/whitespace/emptylineseparator/InputEmptyLineSeparator2.java[m
+[36m@@ -130,14 +130,14 @@[m [mclass InputEmptyLineSeparator2 // violation ''CLASS_DEF' should be separated fro[m
+ }[m
+ [m
+ class Class22{[m
+[31m-    public int compareTo(InputEmptyLineSeparator aObject) //ok[m
+[32m+[m[32m    public int compareTo(InputEmptyLineSeparator aObject)[m[41m [m
+     {[m
+         int number = 0;[m
+         return 0;[m
+     }[m
+ [m
+     Class2 anon = new Class2(){[m
+[31m-        public int compareTo(InputEmptyLineSeparator aObject) //ok[m
+[32m+[m[32m        public int compareTo(InputEmptyLineSeparator aObject)[m
+         {[m
+             int number = 0;[m
+             return 0;[m
